@@ -46,14 +46,14 @@ DRIVE_TRAIN_TYPE = "SERVO_ESC" # SERVO_ESC|DC_STEER_THROTTLE|DC_TWO_WHEEL|SERVO_
 
 #STEERING
 STEERING_CHANNEL = 1            #channel on the 9685 pwm board 0-15
-STEERING_LEFT_PWM = 460         #pwm value for full left steering
-STEERING_RIGHT_PWM = 290        #pwm value for full right steering
+STEERING_LEFT_PWM = 460         #pwm value for full left steering 460
+STEERING_RIGHT_PWM = 290        #pwm value for full right steering 290
 
 #THROTTLE
 THROTTLE_CHANNEL = 0            #channel on the 9685 pwm board 0-15
-THROTTLE_FORWARD_PWM = 500      #pwm value for max forward throttle
-THROTTLE_STOPPED_PWM = 370      #pwm value for no movement
-THROTTLE_REVERSE_PWM = 220      #pwm value for max reverse throttle
+THROTTLE_FORWARD_PWM = 500      #pwm value for max forward throttle 500
+THROTTLE_STOPPED_PWM = 370      #pwm value for no movement 370
+THROTTLE_REVERSE_PWM = 220      #pwm value for max reverse throttle 220
 
 #DC_STEER_THROTTLE with one motor as steering, one as drive
 #these GPIO pinouts are only used for the DRIVE_TRAIN_TYPE=DC_STEER_THROTTLE
